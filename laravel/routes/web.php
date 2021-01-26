@@ -24,3 +24,8 @@ Route::get('/welcome', function () {
 Route::get('/ces', function () {
     return view('ces');
 });
+
+
+Route::get('/admin/index', function () {
+    return view('/admin/index');
+});
