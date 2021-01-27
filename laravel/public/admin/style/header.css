@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+header nav.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #0072c6;
+    padding: 0;
+    margin: 0;
+}
+
+header .logo{
+    border-right: 2px solid #0065B0;
+    width: 20%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .logo a{
+    margin: 0px auto;
+}
+
+header ul.uk-navbar-nav li {
+    padding: 0px 20px;
+    border-left: 2px solid #0065B0;
+}
+
+header ul.uk-navbar-nav li.uk-active {
+    border-left: 0px;
+}
+header ul.uk-navbar-nav li.uk-active a {
+    color: rgb(235, 231, 5);
+}
+
+header ul.uk-navbar-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color;
+}
+
+.uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus {
+    color: rgb(235, 231, 5);
+    outline: 0;
+}

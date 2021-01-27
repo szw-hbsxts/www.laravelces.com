@@ -1,0 +1,156 @@
+.center{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.le_wid{
+    max-width: 310px;
+}
+
+/**main**/
+
+.main .le_list{
+    padding: 0;
+    background-color: #F5F5F5;
+    border-right: 2px solid #e8e8e8;
+}
+
+.main .le_list .uk-card-body{
+    padding: 0;
+    margin: 0;
+}
+
+#menu{
+    overflow: hidden;
+}
+
+#menu ul{
+    border-bottom: 1px solid #CCC;
+    margin: 0;
+}
+
+#menu ul.bot{
+    border-bottom: 0px solid #CCC;
+}
+
+#menu ul li{
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+}
+
+#menu ul li a{
+    display: block;
+    padding-left: 5%;
+    font-size: 14px;
+    color: #626262;
+}
+
+#menu ul li a i{
+    margin-right: 5%;
+    float: left;
+    margin-top: 8px;
+}
+
+#menu ul li a span{
+    font-size: 14px;
+    font-size: 14px;
+    display: block;
+    float: left;
+}
+
+.main .con_mag{
+    padding: 0;
+    margin: 0;
+}
+
+.con_mag .title{
+    background-color: #F5F5F5;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.con_mag .title ul{
+    margin-bottom: 0px;
+    padding-left: 3%;
+}
+
+.con_mag .title li{
+    line-height: 36px;
+}
+
+.uk-breadcrumb>:nth-child(n+2):not(.uk-first-column)::before {
+    content: ">";
+    margin: 0 10px 0 calc(10px - 4px);
+}
+
+
+.mainBox{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.indexBox {
+    margin-bottom: 20px;
+}
+
+.indexBox .boxTitle {
+    border-bottom: 1px solid #D7D7D7;
+    color: #666666;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.indexBox .ipage {
+    overflow: hidden;
+}
+
+.indexBox .ipage a {
+    display: block;
+    background-color: #DDDDDD;
+    color: #555555;
+    font-weight: bold;
+    border: 1px dotted #CCCCCC;
+    float: left;
+    width: 122px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    margin: 0 15px 12px 0;
+    font-size: 14px;
+}
+
+.indexBox .ipage a:hover {
+    border: 1px dotted #FFFFFF;
+    background: #60BBFF url(../images/icon_edit_white.png) no-repeat 12px 50%;
+    color: #FFF;
+}
+
+.tableBasic {
+    background-color: #F9F9F9;
+    color: #666666;
+    border-left: 1px dotted #CCCCCC;
+    border-top: 1px dotted #CCCCCC;
+}
+
+.pl {
+    padding-left: 20px;
+}
+
+.tableBasic td, .tableBasic th {
+    border-right: 1px dotted #CCCCCC;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+.indexBoxTwo td ul, ul.cz_fwq, ul.cz_xtkf{
+    padding-left: 0;
+}
+
+.indexBoxTwo td, ul.cz_fwq td, ul.cz_xtkf td {
+    font-size: 14px;
+}

@@ -9,12 +9,7 @@
     <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/ces">测试01</a></li>
-        <li><a href="/welcome">欢迎来到</a></li>
-        <li><a href="#">测试01</a></li>
-        <li><a href="#">测试01</a></li>
-        <li><a href="#">测试01</a></li>
-        <li><a href="#">测试01</a></li>
-        <li><a href="#">测试01</a></li>
+        <li><a href="/welcome">欢迎来到laravel学习！</a></li>
     </ul>
 </body>
 </html>
